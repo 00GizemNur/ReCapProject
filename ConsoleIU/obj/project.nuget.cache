@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0NZanKr/fRW6FmLvTpAOX/ts7Nv7fdTuHrWlP/evitL0SPLeBfqYPy+yct10oHwTkRWoxz1pdjg248TRU46IFA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gizem Nur\\source\\repos\\ReCapProject\\ConsoleIU\\ConsoleIU.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gizem Nur\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
