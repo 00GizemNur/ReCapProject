@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gizem Nur\\source\\repos\\ReCapProject\\ConsoleIU\\ConsoleIU.csproj": {}
+    "C:\\Users\\Gizem Nur\\source\\repos\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj": {}
   },
   "projects": {
     "C:\\Users\\Gizem Nur\\source\\repos\\ReCapProject\\Business\\Business.csproj": {
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\Gizem Nur\\source\\repos\\ReCapProject\\ConsoleIU\\ConsoleIU.csproj": {
+    "C:\\Users\\Gizem Nur\\source\\repos\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gizem Nur\\source\\repos\\ReCapProject\\ConsoleIU\\ConsoleIU.csproj",
-        "projectName": "ConsoleIU",
-        "projectPath": "C:\\Users\\Gizem Nur\\source\\repos\\ReCapProject\\ConsoleIU\\ConsoleIU.csproj",
+        "projectUniqueName": "C:\\Users\\Gizem Nur\\source\\repos\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
+        "projectName": "ConsoleUI",
+        "projectPath": "C:\\Users\\Gizem Nur\\source\\repos\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
         "packagesPath": "C:\\Users\\Gizem Nur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gizem Nur\\source\\repos\\ReCapProject\\ConsoleIU\\obj\\",
+        "outputPath": "C:\\Users\\Gizem Nur\\source\\repos\\ReCapProject\\ConsoleUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gizem Nur\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,9 +88,6 @@
             "projectReferences": {
               "C:\\Users\\Gizem Nur\\source\\repos\\ReCapProject\\Business\\Business.csproj": {
                 "projectPath": "C:\\Users\\Gizem Nur\\source\\repos\\ReCapProject\\Business\\Business.csproj"
-              },
-              "C:\\Users\\Gizem Nur\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Gizem Nur\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj"
               }
             }
           }
