@@ -1,12 +1,19 @@
-﻿using System;
+﻿using Business.Concrete;
+using DataAccess.Concrete.EntityFramework;
+using DataAccess.Concrete.InMemory;
+using System;
 
-namespace ConsoleUI
+namespace ConsoleIU
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            CarManager carManager = new CarManager(new EfCarDal());
+            foreach (var car in carManager.GetAll())
+            {
+                Console.WriteLine(car.CarDescription);
+            }
         }
     }
 }
