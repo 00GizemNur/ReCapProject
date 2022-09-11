@@ -68,7 +68,6 @@ C:\Users\Gizem Nur\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\E
 C:\Users\Gizem Nur\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Business.pdb
 C:\Users\Gizem Nur\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\DataAccess.pdb
 C:\Users\Gizem Nur\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Entities.pdb
-C:\Users\Gizem Nur\source\repos\ReCapProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.csproj.CopyComplete
 C:\Users\Gizem Nur\source\repos\ReCapProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.dll
 C:\Users\Gizem Nur\source\repos\ReCapProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.pdb
 C:\Users\Gizem Nur\source\repos\ReCapProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.genruntimeconfig.cache
