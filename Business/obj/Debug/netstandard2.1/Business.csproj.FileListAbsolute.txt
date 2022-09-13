@@ -10,6 +10,7 @@ C:\Users\Gizem Nur\source\repos\ReCapProject\Business\obj\Debug\netstandard2.1\B
 C:\Users\Gizem Nur\source\repos\ReCapProject\Business\obj\Debug\netstandard2.1\Business.AssemblyInfoInputs.cache
 C:\Users\Gizem Nur\source\repos\ReCapProject\Business\obj\Debug\netstandard2.1\Business.AssemblyInfo.cs
 C:\Users\Gizem Nur\source\repos\ReCapProject\Business\obj\Debug\netstandard2.1\Business.csproj.CoreCompileInputs.cache
-C:\Users\Gizem Nur\source\repos\ReCapProject\Business\obj\Debug\netstandard2.1\Business.csproj.CopyComplete
 C:\Users\Gizem Nur\source\repos\ReCapProject\Business\obj\Debug\netstandard2.1\Business.dll
 C:\Users\Gizem Nur\source\repos\ReCapProject\Business\obj\Debug\netstandard2.1\Business.pdb
+C:\Users\Gizem Nur\source\repos\ReCapProject\Business\bin\Debug\netstandard2.1\Core.dll
+C:\Users\Gizem Nur\source\repos\ReCapProject\Business\bin\Debug\netstandard2.1\Core.pdb

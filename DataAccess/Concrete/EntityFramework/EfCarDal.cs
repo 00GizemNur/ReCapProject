@@ -1,66 +1,34 @@
-﻿using DataAccess.Abstract;
+﻿using Core.DataAccess.EntityFramework;
+using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.DTOs;
 using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfCarDal : ICarDal
+    public class EfCarDal : EfEntityRepositoryBase<Car, ReCapDbContext>, ICarDal
     {
-        public void Add(Car entity)
+      public List<CarDetailDto> GetCarDetails()
         {
             using (ReCapDbContext context = new ReCapDbContext())
             {
-                var addedEntity = context.Entry(entity);
-                addedEntity.State = (Microsoft.EntityFrameworkCore.EntityState)EntityState.Added;
-                context.SaveChanges();
-            }
-        }
-
-        public void Delete(Car entity)
-
-        {
-            using (ReCapDbContext context = new ReCapDbContext())
-            {
-                var deletedEntity = context.Entry(entity);
-                deletedEntity.State = (Microsoft.EntityFrameworkCore.EntityState)System.Data.Entity.EntityState.Deleted;
-                context.SaveChanges();
-            }
-
-        }
-
-        public Car Get(Expression<Func<Car, bool>> filter)
-        {
-            using (ReCapDbContext context = new ReCapDbContext())
-                return context.Set<Car>().SingleOrDefault(filter);
-        }
-
-
-
-        public List<Car> GetAll(Expression<Func<Car, bool>> filter = null)
-        {
-
-            using (ReCapDbContext context = new ReCapDbContext())
-
-            {
-                return filter == null
-                ? context.Set<Car>().ToList()
-                : context.Set<Car>().Where(filter).ToList();
-            }
-        }
-
-        public void Update(Car entity)
-        {
-            using (ReCapDbContext context = new ReCapDbContext())
-            {
-                var updateEntity = context.Entry(entity);
-                updateEntity.State = (Microsoft.EntityFrameworkCore.EntityState)EntityState.Modified;
-                context.SaveChanges();
-
+                var result = from c in context.cars
+                             join co in context.colors
+                             on c.ColorId equals co.ColorId
+                             join b in context.brands
+                             on c.BrandId equals b.BrandId
+                             select new CarDetailDto
+                             {
+                                 CarName = c.CarName,
+                                 BrandName = b.BrandName,
+                                 ColorName = co.ColorName,
+                                 DailyPrice = c.CarDailyPrice
+                             };
+                return result.ToList();
             }
         }
     }

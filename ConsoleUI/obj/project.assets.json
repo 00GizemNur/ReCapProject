@@ -1584,6 +1584,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
+          "Core": "1.0.0",
           "DataAccess": "1.0.0"
         },
         "compile": {
@@ -1593,10 +1594,24 @@
           "bin/placeholder/Business.dll": {}
         }
       },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.11"
+        },
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      },
       "DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
+          "Core": "1.0.0",
           "Entities": "1.0.0",
           "EntityFramework": "6.4.4",
           "Microsoft.EntityFrameworkCore": "3.1.11",
@@ -1612,6 +1627,9 @@
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Entities.dll": {}
         },
@@ -6089,6 +6107,11 @@
       "type": "project",
       "path": "../Business/Business.csproj",
       "msbuildProject": "../Business/Business.csproj"
+    },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
     },
     "DataAccess/1.0.0": {
       "type": "project",

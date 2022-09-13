@@ -71,3 +71,5 @@ C:\Users\Gizem Nur\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\E
 C:\Users\Gizem Nur\source\repos\ReCapProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.dll
 C:\Users\Gizem Nur\source\repos\ReCapProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.pdb
 C:\Users\Gizem Nur\source\repos\ReCapProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.genruntimeconfig.cache
+C:\Users\Gizem Nur\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Gizem Nur\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Core.pdb

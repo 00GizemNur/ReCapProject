@@ -1995,9 +1995,25 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.11"
+        },
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      },
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Entities.dll": {}
         },
@@ -7126,6 +7142,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
+    },
     "Entities/1.0.0": {
       "type": "project",
       "path": "../Entities/Entities.csproj",
@@ -7134,6 +7155,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
+      "Core >= 1.0.0",
       "Entities >= 1.0.0",
       "EntityFramework >= 6.4.4",
       "Microsoft.EntityFrameworkCore >= 3.1.11",
@@ -7167,6 +7189,9 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
+            "C:\\Users\\Gizem Nur\\source\\repos\\ReCapProject\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\Gizem Nur\\source\\repos\\ReCapProject\\Core\\Core.csproj"
+            },
             "C:\\Users\\Gizem Nur\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
               "projectPath": "C:\\Users\\Gizem Nur\\source\\repos\\ReCapProject\\Entities\\Entities.csproj"
             }
