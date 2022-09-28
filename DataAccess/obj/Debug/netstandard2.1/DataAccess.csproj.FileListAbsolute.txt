@@ -12,4 +12,3 @@ C:\Users\Gizem Nur\source\repos\ReCapProject\DataAccess\obj\Debug\netstandard2.1
 C:\Users\Gizem Nur\source\repos\ReCapProject\DataAccess\obj\Debug\netstandard2.1\DataAccess.pdb
 C:\Users\Gizem Nur\source\repos\ReCapProject\DataAccess\bin\Debug\netstandard2.1\Core.dll
 C:\Users\Gizem Nur\source\repos\ReCapProject\DataAccess\bin\Debug\netstandard2.1\Core.pdb
-C:\Users\Gizem Nur\source\repos\ReCapProject\DataAccess\obj\Debug\netstandard2.1\DataAccess.csproj.CopyComplete

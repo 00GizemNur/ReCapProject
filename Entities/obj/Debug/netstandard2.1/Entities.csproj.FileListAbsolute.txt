@@ -10,3 +10,4 @@ C:\Users\Gizem Nur\source\repos\ReCapProject\Entities\obj\Debug\netstandard2.1\E
 C:\Users\Gizem Nur\source\repos\ReCapProject\Entities\obj\Debug\netstandard2.1\Entities.pdb
 C:\Users\Gizem Nur\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.1\Core.dll
 C:\Users\Gizem Nur\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.1\Core.pdb
+C:\Users\Gizem Nur\source\repos\ReCapProject\Entities\obj\Debug\netstandard2.1\Entities.csproj.CopyComplete
